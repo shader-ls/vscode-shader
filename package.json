@@ -3,11 +3,26 @@
   "displayName": "vscode-shader",
   "description": "Shader languages support for Visual Studio Code",
   "version": "0.0.1",
+  "icon": "./etc/logo.png",
   "engines": {
     "vscode": "^1.81.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shader-ls/vscode-shader"
+  },
+  "publisher": "uniteai",
+  "keywords": [
+    "shader",
+    "hlsl",
+    "glsl",
+    "cg",
+    "lsp",
+    "langauge-server",
+    "unity"
+  ],
   "categories": [
-    "Other"
+    "Programming Languages"
   ],
   "activationEvents": [],
   "main": "./out/extension.js",
