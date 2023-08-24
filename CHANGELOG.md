@@ -4,6 +4,12 @@ All notable changes to the "vscode-shader" extension will be documented in this 
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
-## [Unreleased]
+## 0.2.1 (Unreleased)
+> Released N/A
 
-- Initial release
+- N/A
+
+## 0.0.1
+> Released Aug 23, 2023
+
+* Working release
