@@ -11,7 +11,7 @@
     "type": "git",
     "url": "https://github.com/shader-ls/vscode-shader"
   },
-  "publisher": "uniteai",
+  "publisher": "shader-ls",
   "keywords": [
     "shader",
     "hlsl",
