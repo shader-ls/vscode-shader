@@ -2,7 +2,7 @@
   "name": "vscode-shader",
   "displayName": "vscode-shader",
   "description": "Shader languages support for Visual Studio Code",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "icon": "./etc/logo.png",
   "engines": {
     "vscode": "^1.81.0"
