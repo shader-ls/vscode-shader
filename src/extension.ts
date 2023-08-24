@@ -42,7 +42,7 @@ export function activate(context: vscode.ExtensionContext) {
 	);
 
 	// Register the commands
-	context.subscriptions.push(vscode.commands.registerCommand('vscode-shader.helloWorld', stop));
+	context.subscriptions.push(vscode.commands.registerCommand('vscode-shader.start', start));
 
 	// Start the client. This will also launch the server
 	{
@@ -60,6 +60,6 @@ export function deactivate() {
 	return client.stop();
 }
 
-async function stop() {
-	console.log('test stop command!!!!!!!!!!~~');
+async function start() {
+	//console.log('test start command!!!!!!!!!!~~');
 }

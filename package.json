@@ -14,8 +14,8 @@
   "contributes": {
     "commands": [
       {
-        "command": "vscode-shader.helloWorld",
-        "title": "Hello World"
+        "command": "vscode-shader.start",
+        "title": "Start shader-ls"
       }
     ],
     "configuration": {
