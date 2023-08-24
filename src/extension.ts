@@ -43,12 +43,12 @@ export function activate(context: vscode.ExtensionContext) {
 
 	// Register the commands
 	context.subscriptions.push(vscode.commands.registerCommand('vscode-shader.start', start));
+	context.subscriptions.push(vscode.commands.registerCommand('vscode-shader.stop', stop));
 
 	// Start the client. This will also launch the server
 	{
-		console.log('[INFO] `shader-language-server` is running!');
 		client.setTrace(Trace.Verbose);
-		client.start();
+		start();
 	}
 }
 
@@ -61,5 +61,12 @@ export function deactivate() {
 }
 
 async function start() {
-	//console.log('test start command!!!!!!!!!!~~');
+	client.start();
+	console.log('[INFO] `shader-language-server` is running!');
+}
+
+
+async function stop() {
+	deactivate();
+	console.log('[INFO] `shader-language-server` has been shutdown!');
 }

@@ -24,13 +24,19 @@
   "categories": [
     "Programming Languages"
   ],
-  "activationEvents": [],
+  "activationEvents": [
+    "onLanguage:shaderlab"
+  ],
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
       {
         "command": "vscode-shader.start",
-        "title": "Start shader-ls"
+        "title": "Start `shader langauge server`"
+      },
+      {
+        "command": "vscode-shader.stop",
+        "title": "Stop `shader langauge server`"
       }
     ],
     "configuration": {
