@@ -8,7 +8,7 @@
 
 ## 💾 Installation
 
-
+Search for `shader-ls.vscode-shader` in the extensions tab and click install.
 
 ## 📇 Commands
 
