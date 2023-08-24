@@ -32,19 +32,19 @@
     "commands": [
       {
         "command": "vscode-shader.start",
-        "title": "Start `shader langauge server`"
+        "title": "Start the `shader langauge server`"
       },
       {
         "command": "vscode-shader.stop",
-        "title": "Stop `shader langauge server`"
+        "title": "Stop the `shader langauge server`"
       }
     ],
     "configuration": {
       "title": "Shader LS",
       "properties": {
-        "ShaderLab.CompletionWord": {
+        "ShaderLS.CompletionWord": {
           "type": "boolean",
-          "description": "Non-nil to enable word completion.",
+          "description": "Ture to enable word completion",
           "default": true
         }
       }
