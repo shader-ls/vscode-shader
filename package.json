@@ -45,6 +45,8 @@
     }
   },
   "scripts": {
+    "prepare": "npm install -g @vscode/vsce",
+    "vsix": "vsce package",
     "vscode:prepublish": "npm run compile",
     "compile": "tsc -p ./",
     "watch": "tsc -watch -p ./",
