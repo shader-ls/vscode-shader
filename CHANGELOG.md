@@ -12,7 +12,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## 0.1.0
 > Released N/A
 
-- Initial release
+* Initial release
 
 ## 0.0.1
 > Released Aug 23, 2023
