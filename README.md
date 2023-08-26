@@ -10,6 +10,9 @@
 
 Search for `shader-ls.vscode-shader` in the extensions tab and click install.
 
+Then install the [shader-language-server][], see [Installation](https://github.com/shader-ls/shader-language-server#-installation)
+section for more information!
+
 ## 📇 Commands
 
 | Commands              | Description                        |
@@ -23,3 +26,5 @@ Search for `shader-ls.vscode-shader` in the extensions tab and click install.
 |:--------------------------|:--------------------------------|
 | `ShaderLS.CompletionWord` | True to enable word completion. |
 
+
+[shader-language-server]: https://github.com/shader-ls/shader-language-server
