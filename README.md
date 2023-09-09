@@ -6,6 +6,8 @@
 # vscode-shader
 > Shader languages support for Visual Studio Code
 
+[![Build](https://github.com/shader-ls/vscode-shader/actions/workflows/test.yml/badge.svg)](https://github.com/shader-ls/vscode-shader/actions/workflows/test.yml)
+
 ## 💾 Installation
 
 Search for `shader-ls.vscode-shader` in the extensions tab and click install.
