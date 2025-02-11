@@ -5,3 +5,6 @@ node_modules
 *.vsix
 
 /_test
+
+# OS generated
+.DS_Store
