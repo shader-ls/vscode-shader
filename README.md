@@ -7,7 +7,7 @@
 [![VSCode Marketplace Downloads](https://img.shields.io/visual-studio-marketplace/d/shader-ls.vscode-shader)](https://marketplace.visualstudio.com/items?itemName=shader-ls.vscode-shader)
 [![VSCode Marketplace Rating](https://img.shields.io/visual-studio-marketplace/r/shader-ls.vscode-shader)](https://marketplace.visualstudio.com/items?itemName=shader-ls.vscode-shader)
 
-![Open VSX Version](https://img.shields.io/open-vsx/v/shader-ls/vscode-shader)
+[![Open VSX Version](https://img.shields.io/open-vsx/v/shader-ls/vscode-shader)](https://open-vsx.org/extension/shader-ls/vscode-shader)
 
 # vscode-shader
 > Shader languages support for Visual Studio Code
